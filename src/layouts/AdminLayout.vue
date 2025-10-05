@@ -32,9 +32,10 @@
         </div>
       </header>
 
-      <main class="p-6">
-        <slot />
-      </main>
+    <!-- Main content -->
+    <main class="flex-1 p-6 overflow-y-auto">
+      <router-view /> <!-- ⚠️ این خط الزامی است -->
+    </main>
     </div>
   </div>
 </template>
