@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+:root {
+  --bg-primary: #212121;
+  --bg-secondary: #303030;
+  --text-light: #E0E0E0;
+  --accent: #6C63FF;
+}
+
+html, body, #app {
+  height: 100%;
+}
