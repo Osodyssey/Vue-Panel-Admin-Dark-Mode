@@ -1,5 +1,5 @@
-module.exports = /** @type {import('tailwindcss').Config} */
-export default {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
@@ -8,9 +8,9 @@ export default {
         bgPrimary: '#212121',
         bgSecondary: '#303030',
         textLight: '#E0E0E0',
-        accent: '#6C63FF'
-      }
-    }
+        accent: '#6C63FF',
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
